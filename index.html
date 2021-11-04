@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title> EVERYTHING EVE </title>
+	<style>
+        body {
+            width: 1440px;
+            margin: 0px 0px 0px 0px;
+			height: 1440px;
+			background-color: #fdffb6;
+		}
+		#header {
+			width: 1440px;
+            border-radius: 0px;
+            background-size: cover;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center;
+            margin: 0px;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 50px;
+			color: #fefeff;
+			text-shadow: 3px 3px 3px purple;
+			background-image: url(https://static.vecteezy.com/system/resources/previews/001/427/061/original/pink-clouds-background-free-vector.jpg);
+            }
+		ul {
+			width: 1450px;
+			background-color: #ffadad;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            position: sticky;
+            top: 10px;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: inline-block;
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+			letter-spacing: 2px;
+            font-weight: 700;
+			text-align: center;
+        }
+		#IntroHeading{
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .3rem;
+			color: #ff4fa5;
+			margin-left: 30px;
+			margin-right: 30px;
+			text-align: center;
+			text-shadow: 2px 2px 2px white;
+			background-width: 1200px;
+			background-color: #efc7e5;
+			padding-top: 0px;
+			padding-bottom: 5px;
+			background-size: 1200px;
+			border-radius: 30px;
+            text-align: center;
+			box-shadow: 3px 4px 4px #70d6ff;
+		}
+		#IntroHeadingTwo{
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .3rem;
+			color: #a354d6;
+			margin-left: 30px;
+			margin-right: 30px;
+			text-align: center;
+			text-shadow: 2px 2px 2px white;
+			background-width: 1200px;
+			background-color: #ffbdbd;
+			padding-top: 0px;
+			padding-bottom: 5px;
+			background-size: 1200px;
+            text-align: center;
+			border-radius: 30px;
+			box-shadow: 3px 4px 4px #70d6ff;
+		}
+		.feed-block-heading:before,.feed-block-heading:after {
+			padding-top: 5px;
+			content: "";
+			display: block;
+			height: 2.3rem;
+			background: url(https://assets.hearstapps.com/sites/cosmopolitan/assets/images/svgs/underline-black.ca9ae59.svg) repeat center center;
+			filter: invert(50%) sepia(35%) saturate(2322%) hue-rotate(336deg) brightness(87%) contrast(117%);
+			margin-top: 0px;
+			padding-bottom: 0px;
+			color: #ff4fa5;
+		}
+			
+		.feed-block-heading2:before,.feed-block-heading2:after {
+			content: "";
+			display: block;
+			height: 2.3rem;
+			background: url(https://assets.hearstapps.com/sites/cosmopolitan/assets/images/svgs/underline-black.ca9ae59.svg) repeat center center;
+			filter: invert(50%) sepia(35%) saturate(2322%) hue-rotate(336deg) brightness(87%) contrast(117%);
+			margin-top: 0px;
+			padding-bottom: 5px;
+		}
+		h2 {
+		    font-family: , sans-serif;
+            color: #20836A;
+            font-size: 35px;
+            padding-top: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+            margin: 0px, 0px, 0px, 0px;
+			text-align: center;
+		}
+		h6 {
+			font-color: #20836A;
+		}
+		.td1 {
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: left;
+			text-spacing: 1px 1px 1px;
+		}
+		}
+		.td2 {
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: left;
+			text-spacing: 1px 1px 1px;
+		}
+		.td3 {
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: left;
+			text-spacing: 1px 1px 1px;
+		}
+		.FT, .BT,.Mantra {
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .3rem;
+			color: #ff4fa5;
+			text-align: justify;
+			text-shadow: 2px 2px 2px white;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			color: #ff4fa5;
+		}
+		.FTcontent, .BTcontent,.MantraContent {
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .3rem;
+			margin: auto;
+			padding-left: 0px;
+			color: black;
+			text-shadow: 1px 0px 0px white;
+			font-size: 17px;
+		}
+		.table1 {
+			border-radius: 30px;
+			border-spacing: 10px;
+			width: 1400px;
+			margin-top: 40px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-bottom: 40px;
+			background-color: #efc7e5;
+			padding-bottom: 20px;
+			background-radius: 20px;
+			box-shadow: 3px 4px 4px #70d6ff;
+		}	
+		h3 {
+			display: block;
+			margin-block-start: 1em;
+			margin-block-end: 1em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;	
+			color: #a354d6;
+			margin-top: 0px;
+		}
+		footer {
+            width: 1440px;
+			padding-bottom: 10px;
+			padding-left: 15px;
+			padding-top: 10px;
+			background-color: #ffadad;
+			display: inline-block;
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+			letter-spacing: 2px;
+            font-weight: 700;
+			text-align: left;
+        }
+	</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1> EVERYTHING EVE </h1>
+		</div>
+		<div id="nav"> 
+			<ul>
+				<li><a href = "a">HOME</a></li>
+				<li><a href = "a">FASHION</a></li>
+				<li><a href = "a">K-DRAMAS</a></li>
+				<li><a href = "a">MUSIC</a></li>
+				<li><a href = "a">ABOUT</a></li>
+			</ul> 
+		</div>	
+		<div id="IntroHeading">
+			<h1 class="feed-block-heading">
+				<span>welcome!</span>
+			</h1>
+				<h6> Welcome ladies! Are you ready to uncover the bubbly and colorful life of our author 
+					 in this month's issue of EVERYTHING EVE? We're dropping lots of beauty secrets and tips,
+					 plus a lot of k-drama and song recommendations, so don't miss anything! </h6>
+		</div>
+		<div id="IntroHeadingTwo">
+			<h1 class="feed-block-heading2">
+				<span>what's popping</span>
+			</h1>
+			<div id="IntroContent">
+				<div id="highlights">
+					<h3> The Best Online Shopping Stores </h3>
+					<h3> Top 10 Must Watch K-Dramas </h3>
+					<h3> Top 10 Must Hear Songs </h3>
+				</div>
+			</div>
+		</div>
+		<div id="DailyRecos">
+		<table class="table1">
+			<tr class="tr1">
+				<td class="td1">
+					<h2 class="FT"> Fashion Tip! </h2>
+					<h4 class="FTcontent"> Learn to balance proportions! I KNOW that you really want to mix and match a lot of tops and layers, but 
+					 you should learn when to stop in order to avoid looking bulky! Sometimes, less is more. Take in mind your proportions
+					 and make sure that your outfits are flattering!</h4>
+				</td>
+				<td class="td2"> 
+					<h2 class="BT"> Beauty Tip! </h2>
+					<h4 class="BTcontent"> Drop all the unnecessary products in your skincare routine! Those eyemasks and serums that you do not really
+					 need might just be costing you money! Again, sometimes, less is more. It's always best to consult your dermatologist
+					 first. You don't want all those unprescribed products to burn your face, that's a nightmare! </h4>
+				</td>
+				<td class="td3">
+					<h2 class="Mantra"> Mantra of The Day </h2>
+					<h4 class="MantraContent"> You've got to take the good with the bad, smile with the sad, love what you've got, and remember what you had.
+					 Always forgive, but never forget. Learn from mistakes, but never regret. </h4>
+				</td>
+			</tr>
+			</table>
+		</div>
+		  <footer>
+            <table>
+                <tr>
+                    <th> Contact us</th>
+                </tr>
+                <tr>
+                    <td> email: everythingeve@gmail.com</td>
+                </tr>
+                <tr>
+                    <td> telephone #: 456-082</td>
+                </tr>
+                <tr>
+                    <td>&#x24B8;2021 <b>EVERYTHING EVE</b>. All rights reserved.</td>
+                </tr>
+            </table>
+        </footer>
+	</body>
+</html>
