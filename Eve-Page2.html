@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title> EVERYTHING EVE </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<style>
+        body {
+            width: 1440px;
+            margin: 0px 0px 0px 0px;
+			height: 1440px;
+			background-color: #fdffb6;
+		}
+		#header {
+			width: 1430px;
+            border-radius: 0px;
+            background-size: cover;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center;
+            margin: 0px;
+			font-family: 'Staatliches', cursive;
+			font-size: 50px;
+			letter-spacing: 1.5rem;
+			color: #fefeff;
+			text-shadow: 3px 3px 3px purple;
+			background-image: url(https://static.vecteezy.com/system/resources/previews/001/427/061/original/pink-clouds-background-free-vector.jpg);
+            }
+		ul {
+			width: 1440px;
+			background-color: #ffadad;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            position: sticky;
+            top: 10px;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: inline-block;
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+			letter-spacing: 2px;
+            font-weight: 700;
+			text-align: center;
+        }
+		.OLT, .WE, .BC, .TA, .CF {
+			width: 700px;
+			padding-left: 50px;
+		}
+		footer {
+            padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin-bottom: 0px;
+			margin-top: 40px;
+            width: 1440px;
+			background-color: #ffadad;
+			display: inline-block;
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+			letter-spacing: 2px;
+            font-weight: 700;
+			text-align: left;
+        }
+		.feed-block-heading:after {
+			padding-top: 5px;
+			content: "";
+			display: block;
+			height: 1.5rem;
+			background: url(https://assets.hearstapps.com/sites/cosmopolitan/assets/images/svgs/underline-black.ca9ae59.svg) repeat center center;
+			filter: invert(50%) sepia(35%) saturate(2322%) hue-rotate(336deg) brightness(87%) contrast(117%);
+			color: #ff4fa5;
+		}
+		.mainHeader {
+			width: 800px;
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2.5rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .2rem;
+			color: #a354d6;
+			text-align: left;
+			text-shadow: 2px 2px 2px white;
+			background-color: #ffadad;
+			background-size: 600px;
+			border-radius: 10px;
+			padding-right: 10px;
+			margin-left: 50px;
+			padding-left: 10px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			margin-bottom: 0px;
+			box-shadow: 4px 4px 5px #70d6ff;
+		}
+		#BeautyContent {
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .3rem;
+			color: #ff4fa5;
+			text-align: justify;
+			text-shadow: 2px 2px 2px white;
+			background-width: 700px;
+			padding-bottom: 10px;
+			float: left;
+			margin-right: 50px;
+		}
+		#BCmain {
+            width: 700px;
+			float: left;
+            background-image: url();
+            background-position: center;
+            background-size: cover;
+		}
+		p {
+			font-size: 17px;
+			padding-top: 10px;
+			margin: auto;
+			padding-left: 0px;
+			color: black;
+			text-shadow: 1px 0px 0px #ff4fa5;
+		}
+		img {
+			background-width: 500px;
+            border-radius: 5px;
+            border-color: #70d6ff;
+            border-width: 8px;
+            border-style: solid;
+			box-shadow: 4px 4px 5px #70aeff;
+        }
+		.sideContentHeader {
+			display: inline-block;
+			float: left;
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2.5rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .2rem;
+			color: #a354d6;
+			text-shadow: 2px 2px 2px white;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 0px;
+			width: 400px;
+            text-align: left;
+		}
+		#pieces {
+			display: inline-block;
+			float: right;
+			width: 480px;
+			padding-right: 20px;
+		}
+		#Basics {
+			background-color: #efc7e5;
+			padding: 30px;
+			text-align: center;
+			border-radius: 15px;
+			box-shadow: 4px 4px 5px #70d6ff;
+			width: 300px;
+			padding-right: 20px;
+		}
+		.LBD, .DJ, .OT, .WJ, .JP, .ST, .PS, .BL, .DS, .RT{
+			font-family: Futura W05,Helvetica,Arial,Sans-serif;
+			font-size: 2rem;
+			line-height: 1.3;
+			text-transform: uppercase;
+			letter-spacing: .2rem;
+			color: #ff4fa5;
+			text-align: justify;
+			text-shadow: 2px 2px 2px white;
+			background-width: 500px;
+			padding-bottom: 10px;
+			float: left;
+		}
+	</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1> EVERYTHING EVE </h1>
+		</div>
+		<div id="nav"> 
+			<ul>
+				<li><a href = "a">HOME</a></li>
+				<li><a href = "a">BEAUTY</a></li>
+				<li><a href = "a">K-DRAMAS</a></li>
+				<li><a href = "a">MUSIC</a></li>
+				<li><a href = "a">ABOUT</a></li>
+			</ul> 
+		</div>	
+		<div>
+			<h2 class="mainHeader"> The Best Online Shopping Stores! </h2>
+		</div>
+		<div id="pieces">
+		<table id="Basics">
+			<tr><td><h2 class="sideContentHeader"> Must-Have Basic Pieces </h2></td></tr>
+			<tr><td><h3 class="LBD">1. Black Dress</h3></td></tr>
+			<tr><td><img src="black_dress.png" alt="LBD" width="300"></td></tr>
+			<tr><td><h3 class="DJ">2. Denim Jacket </h3></td></tr>
+			<tr><td><img src="denimjacket.png" alt="DJ" width="300"></td></tr>
+			<tr><td><h3 class="OT">3. Oversized Top</h3></td></tr>
+			<tr><td><img src="oversizedshirt.png" alt="OT" width="300"></td></tr>
+			<tr><td><h3 class="WJ">4. Washed Jeans</h3></td></tr>
+			<tr><td><img src="pants.png" alt="WJ" width="300"></td></tr>
+			<tr><td><h3 class="JP">5. Jumper </h3></td></tr>
+			<tr><td><img src="jumper.png" alt="JP" width="300"></td></tr>
+			<tr><td><h3 class="ST">6. Satin Top </h3></td></tr>
+			<tr><td><img src="satintop.png" alt="ST" width="300"></td></tr>
+			<tr><td><h3 class="PS">7. Plain Skirt </h3></td></tr>
+			<tr><td><img src="skirt.png" alt="PS" width="300"></td></tr>
+			<tr><td><h3 class="BL">8. Blazer </h3></td></tr>
+			<tr><td><img src="blazer.png" alt="BL" width="300"></td></tr>
+			<tr><td><h3 class="DS">9. Denim Shorts </h3></td></tr>
+			<tr><td><img src="denimshorts.png" alt="DS" width="300"></td></tr>
+			<tr><td><h3 class="RT">10. Ribbed Top </h3></td></tr>
+			<tr><td><img src="ribbedtop.png" alt="RT" width="300"></td></tr>
+		</table>
+		</div>
+		<div id="BeautyContent">
+			<table id="BCmain">
+			<tr>
+				<td class="OLT">
+					<h3 class="feed-block-heading"> One Like This - Bataan </h3>
+					<img src = "olt_btn.png" alt = "OLT" height="300" width="800">
+					<p> This Instagram store is one of my main shopping stores online! OLT BTN is an online thrifting store that's owned by a college girl in Bataan. 
+						When you go to their store and check out what they have, you're going to see almost every type of clothes that are classy and chic! Oh wait, did I forget to mention that the clothes are all thrifted? The seller hand-picks all items, and she's nice too! Plus, you can get high-quality pieces at an affordable price! Big YAY! Ladies, what are you waiting for? 
+						Hurry and head on to their Instagram page to check for their available pieces! They also have monthly collections, so don't forget to mark your calendars on the release date, xoxo! </p> 
+				</td>
+			</tr>
+			<tr>
+				<td class="WE">
+					<h3 class="feed-block-heading"> Weekend Euphoria </h3>
+					<img src = "weekendeuphoria.png" alt = "WE" height="300" width="800">
+					<p> This is absolutely the best online store on Instagram! All their pieces are glamorous and flattering, plus their pieces are all thrifted too! 
+						Like OLT BTN, Weekend Euphoria is also an online shopping store on Instagram that's owned by a girl from Bataan. What I love about this store	
+						is the quality of the clothes and the customer service! When you talk to the owner, you're really going to feel valued and appreciated. She even
+						chats with her customer casually and gives tips on how to score a nice piece! This store is really a total package. From classic tops to
+						trendy skirts and pants at such an affordable price, they've got it all covered! </p>
+				</td>
+			</tr>
+			<tr>
+				<td CLASS="TA"> 
+					<h3 class="feed-block-heading"> Tatiana Apparel </h3>
+					<img src = "tatiana_apparel.png" alt = "Tatiana" height="300" width="800">
+					<p> Another fave! If you're preparing for a date night, this is the perfect store for you! They have a wide-range of dresses, pants, skirts, and tops that are 
+						really fashionable and cute! Wether you're looking for classy tops for dinner or cute outfits for a picnic date, they've got it covered! 
+						Morever, they're not limited for petite people and that's really important! Style and fashion should be inclusive to all
+						sizes; thus, we should definitely give more spotlight to stores that are inclusive to everyone. Did I tell you that their prices are cheap too? Head on to
+						their instagram page now, you won't regret it! ;)) </p>
+				</td>
+			</tr>
+			<tr>
+				<td class="BC">
+					<h3 class="feed-block-heading"> Baechic</h3> 
+					<img src = "baechic_zmbga.png" alt = "Baechic" height="300" width="800">
+					<p> This store is for all hoodie-lovers out there! Baechic Zamboanga City is an Instagram shop that posts collections of a bunch of 
+						high-quality and affordable hoodies and sweaters. Their pieces range from almost all colors and they're also sustainable! What's
+						really nice about this shop is that their hoodies and sweaters are all stylish for both men and women! Pro tip, if you want to
+						score nice pieces, then set your alarms and save the internet all to yourself! The hoodies are all sold out after a matter of few seconds, so don't forget to prepare for the battle! Just kidding. 
+						Check out their Instagram page too!</p>
+				</td>				
+			</tr>
+			<tr>
+				<td class="CF">
+					<h3 class="feed-block-heading"> Coco x Fifi </h3>
+					<img src = "cocoxfifi.png" alt = "Coco x Fifi" height="300" width="800">
+					<p> Last but not the least, COCO x Fifi! This store is different from the previous ones because they sell bags and shoes. This is by far
+						one of my most trusted brands when it comes to bags and shoes because their designs are very classy but affordable! You don't have to wear designer
+						items in order to look classy because shops like Coco x Fifi already produce high-quality and sustainable bags and shoes that are locally-made! The materials 
+						are good too, so it's really worth your money! Head on to their page and check their designs out, now! ;)) </p>
+				</td>
+			</tr>
+			</table>
+		</div>  
+		<footer>
+        <table class="pagefooter">
+                <tr>
+                    <td> Contact us</td>
+                </tr>
+                <tr>
+                    <td> email: thecentralnews@gmail.com</td>
+                </tr>
+                <tr>
+                    <td> telephone #: 456-082</td>
+                </tr>
+                <tr>
+                    <td>&#x24B8;2021 <b>THE CENTRAL NEWS</b>. All rights reserved.</td>
+                </tr>
+        </table>
+      </footer>
+	</body>
+</html>
